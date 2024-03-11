@@ -1,7 +1,7 @@
-variable "AWS_REGION" {
-  type = string
-  default = "us-east-1"
-}
+#variable "AWS_REGION" {
+ # type = string
+ # default = "us-east-1"
+#}
 
 variable AMIS {
   type = map

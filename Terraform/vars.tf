@@ -1,13 +1,13 @@
 variable "AWS_REGION" {
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 variable AMIS {
   type = map
   default = {
-    us-east-2 = "ami-0c7217cdde317cfec"
-    us-east-2 = "ami-0c7217cdde317cfec"
-    us-south-1 = "ami-07d9b9ddc6cd8dd30"
+    us-east-1 = "ami-0c7217cdde317cfec"
+    us-east-1 = "ami-0c7217cdde317cfec"
+    us-east-1 = "ami-07d9b9ddc6cd8dd30"
   }
 }
 variable PRIV_KEY_PATH {
@@ -44,13 +44,13 @@ variable VPC_NAME {
   default = "vprofile-VPC"
 }
 variable Zone1 {
-  default = "us-east-2a"
+  default = "us-east-1a"
 }
 variable Zone2{
-  default = "us-east-2b"
+  default = "us-east-1b"
 }
 variable Zone3 {
-  default = "us-east-2c"
+  default = "us-east-1c"
 }
 variable VpcCIDR {
   default = "172.21.0.0/16"
